@@ -9,27 +9,27 @@ import { Rhino3dmLoader } from 'https://cdn.jsdelivr.net/npm/three@0.124.0/examp
 const definitionName = 'CLOTH_6'
 
 // Set up sliders
-const radius_slider = document.getElementById('PINCH_RADIUS')
+const PINCH_RADIUS_slider = document.getElementById('PINCH_RADIUS')
 PINCH_RADIUS_slider.addEventListener('mouseup', onSliderChange, false)
 PINCH_RADIUS_slider.addEventListener('touchend', onSliderChange, false)
 
-const count_slider = document.getElementById('FALLOFF')
+const FALLOFF_slider = document.getElementById('FALLOFF')
 FALLOFF_slider.addEventListener('mouseup', onSliderChange, false)
 FALLOFF_slider.addEventListener('touchend', onSliderChange, false)
 
-const count_slider = document.getElementById('MIN_SCALE')
+const MIN_SCALE_slider = document.getElementById('MIN_SCALE')
 MIN_SCALE_slider.addEventListener('mouseup', onSliderChange, false)
 MIN_SCALE_slider.addEventListener('touchend', onSliderChange, false)
 
-const count_slider = document.getElementById('MAX_SCALE')
+const MAX_SCALE_slider = document.getElementById('MAX_SCALE')
 MAX_SCALE_slider.addEventListener('mouseup', onSliderChange, false)
 MAX_SCALE_slider.addEventListener('touchend', onSliderChange, false)
 
-const count_slider = document.getElementById('SMOOTHNESS_1')
+const SMOOTHNESS_1_slider = document.getElementById('SMOOTHNESS_1')
 SMOOTHNESS_1_slider.addEventListener('mouseup', onSliderChange, false)
 SMOOTHNESS_1_slider.addEventListener('touchend', onSliderChange, false)
 
-const count_slider = document.getElementById('SMOOTHNESS_2')
+const SMOOTHNESS_2_slider = document.getElementById('SMOOTHNESS_2')
 SMOOTHNESS_2_slider.addEventListener('mouseup', onSliderChange, false)
 SMOOTHNESS_2_slider.addEventListener('touchend', onSliderChange, false)
 
