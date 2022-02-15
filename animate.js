@@ -33,6 +33,9 @@ const SMOOTHNESS_2_slider = document.getElementById('SMOOTHNESS_2')
 SMOOTHNESS_2_slider.addEventListener('mouseup', onSliderChange, false)
 SMOOTHNESS_2_slider.addEventListener('touchend', onSliderChange, false)
 
+
+
+
 const loader = new Rhino3dmLoader()
 loader.setLibraryPath('https://cdn.jsdelivr.net/npm/rhino3dm@0.15.0-beta/')
 
@@ -89,6 +92,8 @@ async function compute() {
 
 
     const res = await RhinoCompute.Grasshopper.evaluateDefinition(definition, trees)
+
+    console.log(res)
 
     doc = new rhino.File3dm()
 
